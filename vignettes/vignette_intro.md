@@ -1,6 +1,6 @@
 ---
 title: "Introduction to the rasterbc package"
-output: rmarkdown::html_vignette
+output: github_document
 date: "2022-01-17"
 vignette: >
   %\VignetteIndexEntry{Introduction to the rasterbc package}

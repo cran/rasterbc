@@ -1,11 +1,17 @@
 The rasterbc R Package
 ================
 Dean Koch
-2021-12-15
+2022-01-17
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 <!-- badges: end -->
+
+**NOTE (January 17, 2022): FRDR’s direct download functionality is
+[temporarily unavailable](https://www.frdr-dfdr.ca/repo/). Unfortunately
+this prevents rasterbc from downloading data tiles from the expected
+URLs at globus.org. Please be patient as FRDR works to resolve the
+issue.**
 
 `rasterbc` provides access to a collection of 100m resolution gridded
 spatial ecological data on the province of British Columbia during the
@@ -60,22 +66,27 @@ The collection is published as a [data
 publication](https://doi.org/10.20383/101.0283) for permanence and easy
 referencing.
 
-<img src="vignettes/man/figures/vignette_intro_okanagan_location-1.png" width="30%"></img>
-<img src="vignettes/man/figures/vignette_intro_okanagan_elevation_tiles-1.png" width="30%"></img>
-<img src="vignettes/man/figures/vignette_intro_okanagan_bgcz-1.png" width="30%"></img>
+<img src="https://raw.githubusercontent.com/deankoch/rasterbc/master/vignettes/vignette_intro_okanagan_location-1.png" width="30%"></img>
+<img src="https://raw.githubusercontent.com/deankoch/rasterbc/master/vignettes/vignette_intro_okanagan_elevation_tiles-1.png" width="30%"></img>
+<img src="https://raw.githubusercontent.com/deankoch/rasterbc/master/vignettes/vignette_intro_okanagan_bgcz-1.png" width="30%"></img>
 
 ## Releases
 
-`rasterbc` is not yet available on CRAN but it can be downloaded and
-installed in R using the command
+`rasterbc` is available on CRAN:
+
+[rasterbc v1.0.0](https://CRAN.R-project.org/package=rasterbc)
+
+[![](https://cranlogs.r-pkg.org/badges/rasterbc)](https://cran.r-project.org/package=rasterbc)
+
+Install it in R using the command
 
 ``` r
-devtools::install_github('deankoch/rasterbc')
+install.packages('rasterbc')
 ```
 
 This will also install the dependencies `sf` and `terra`, if you don’t
 have them already. See the [introduction
-vignette](https://github.com/deankoch/rasterbc/blob/master/vignette_intro.md)
+vignette](https://github.com/deankoch/rasterbc/blob/master/vignettes/vignette_intro.md)
 for instructions on getting started with this package.
 
 ## About
